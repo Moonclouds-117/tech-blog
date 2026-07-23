@@ -1,4 +1,4 @@
-import{j as e}from"./index-DSMwFxqu.js";import{b as r}from"./vendor-CN7vaCvy.js";const R=[{id:"1",title:"React 18 并发特性深入解析",summary:"深入理解 React 18 的 Concurrent Mode、useTransition、useDeferredValue 等并发特性，以及它们如何改善用户体验。",content:`## 什么是并发渲染？
+const e=[{id:"1",title:"React 18 并发特性深入解析",summary:"深入理解 React 18 的 Concurrent Mode、useTransition、useDeferredValue 等并发特性，以及它们如何改善用户体验。",content:`## 什么是并发渲染？
 
 React 18 引入了并发渲染机制，这是 React 渲染模型的一次重大升级。并发模式允许 React 在渲染过程中暂停、中断或恢复工作，从而保持应用的响应性。
 
@@ -433,4 +433,4 @@ CMD ["node", "dist/index.js"]
 
 ## 总结
 
-多阶段构建是 Docker 镜像优化的核心手段，配合 Alpine 基础镜像和合理的层设计，可以显著减小镜像体积。`,category:"后端",tags:["Docker","DevOps","性能优化"],coverImage:"https://picsum.photos/seed/docker/800/400",author:"李四",publishDate:"2025-08-20",readingTime:7}],g="_wrapper_1ncdx_1",h="_placeholder_1ncdx_7",y="_img_1ncdx_29",T="_loaded_1ncdx_40",t={wrapper:g,placeholder:h,img:y,loaded:T};function b({src:n,alt:c,className:p=""}){const a=r.useRef(null),[d,l]=r.useState(!1),[o,u]=r.useState(!1);return r.useEffect(()=>{const s=a.current;if(!s)return;const i=new IntersectionObserver(([m])=>{m.isIntersecting&&(l(!0),i.unobserve(s))},{rootMargin:"200px",threshold:.01});return i.observe(s),()=>i.disconnect()},[]),e.jsx("div",{ref:a,className:`${t.wrapper} ${p}`,children:d?e.jsxs(e.Fragment,{children:[!o&&e.jsx("div",{className:t.placeholder}),e.jsx("img",{src:n,alt:c,className:`${t.img} ${o?t.loaded:""}`,onLoad:()=>u(!0),loading:"lazy"})]}):e.jsx("div",{className:t.placeholder})})}export{b as L,R as a};
+多阶段构建是 Docker 镜像优化的核心手段，配合 Alpine 基础镜像和合理的层设计，可以显著减小镜像体积。`,category:"后端",tags:["Docker","DevOps","性能优化"],coverImage:"https://picsum.photos/seed/docker/800/400",author:"李四",publishDate:"2025-08-20",readingTime:7}];export{e as a};
