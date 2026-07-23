@@ -1,0 +1,28 @@
+.toggle {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--bg-tertiary);
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.toggle:hover {
+  background-color: var(--accent-light);
+  transform: scale(1.1);
+}
+
+.icon {
+  font-size: 1.1rem;
+  line-height: 1;
+}
+
+.sun {
+  color: #f59e0b;
+}
+
+.moon {
+  color: #6366f1;
+}

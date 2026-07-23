@@ -1,0 +1,140 @@
+.sidebar {
+  width: 240px;
+  flex-shrink: 0;
+  padding: 24px 16px;
+  border-right: 1px solid var(--border);
+  background-color: var(--sidebar-bg);
+  overflow-y: auto;
+  transition: background-color 0.3s ease;
+}
+
+.section {
+  margin-bottom: 28px;
+}
+
+.title {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 12px;
+  padding-left: 4px;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 8px 12px;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  transition: all 0.2s;
+}
+
+.item:hover {
+  background-color: var(--bg-tertiary);
+  color: var(--text-primary);
+}
+
+.active {
+  background-color: var(--accent-light);
+  color: var(--accent);
+  font-weight: 500;
+}
+
+.count {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  background: var(--bg-tertiary);
+  padding: 2px 8px;
+  border-radius: 10px;
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.tag {
+  padding: 4px 10px;
+  border-radius: 6px;
+  font-size: 0.8rem;
+  background-color: var(--tag-bg);
+  color: var(--tag-text);
+  transition: all 0.2s;
+}
+
+.tag:hover {
+  background-color: var(--accent-light);
+  color: var(--accent);
+}
+
+.tagActive {
+  background-color: var(--tag-active-bg);
+  color: var(--tag-active-text);
+}
+
+@media (max-width: 1024px) {
+  .sidebar {
+    width: 100%;
+    border-right: none;
+    border-bottom: 1px solid var(--border);
+    padding: 16px;
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+  }
+
+  .section {
+    margin-bottom: 0;
+    flex-shrink: 0;
+  }
+
+  .title {
+    margin-bottom: 8px;
+  }
+
+  .list {
+    flex-direction: row;
+    gap: 4px;
+  }
+
+  .item {
+    width: auto;
+    white-space: nowrap;
+  }
+
+  .tags {
+    flex-wrap: nowrap;
+  }
+
+  .tag {
+    white-space: nowrap;
+  }
+}
+
+@media (max-width: 768px) {
+  .sidebar {
+    flex-direction: column;
+    gap: 12px;
+    padding: 12px;
+  }
+
+  .list {
+    flex-wrap: wrap;
+  }
+
+  .tags {
+    flex-wrap: wrap;
+  }
+}
