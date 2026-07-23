@@ -1,4 +1,4 @@
-import{j as e}from"./index-CfaiBs3_.js";import{b as r}from"./vendor-WK6sOyKt.js";const R=[{id:"1",title:"React 18 并发特性深入解析",summary:"深入理解 React 18 的 Concurrent Mode、useTransition、useDeferredValue 等并发特性，以及它们如何改善用户体验。",content:`## 什么是并发渲染？
+import{j as e}from"./index-DSMwFxqu.js";import{b as r}from"./vendor-CN7vaCvy.js";const R=[{id:"1",title:"React 18 并发特性深入解析",summary:"深入理解 React 18 的 Concurrent Mode、useTransition、useDeferredValue 等并发特性，以及它们如何改善用户体验。",content:`## 什么是并发渲染？
 
 React 18 引入了并发渲染机制，这是 React 渲染模型的一次重大升级。并发模式允许 React 在渲染过程中暂停、中断或恢复工作，从而保持应用的响应性。
 
